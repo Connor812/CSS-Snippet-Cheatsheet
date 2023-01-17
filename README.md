@@ -1,6 +1,6 @@
 # CSS Snippet Cheatsheet
 
-# Description
+## Description
 
 This page was developed by Connor Savoy with the help of the University of Toronto. It this a cheat sheet guide to add all of our CSS code into so we have it for future referance.
 
@@ -27,5 +27,9 @@ Huge shoutout to the Toronto University for accepting me into their course and t
 
 ## License
 
+GNU GENERAL PUBLIC LICENSE
+Version 3, 29 June 2007
 
+# Picture of Webpage
 
+![alt text](./assets/images/CSS-cheatsheet.png)
