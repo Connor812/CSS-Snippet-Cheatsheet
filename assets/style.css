@@ -1,0 +1,83 @@
+:root {
+  --purple: rgba(232, 102, 236, 0.6) 100%;
+}
+
+/* Change background color  */
+
+body {
+  background-image: linear-gradient(rgb(52, 52, 52), rgb(77, 77, 77));
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+h1 {
+  color: rgb(215, 17, 215);
+}
+
+h2 {
+  color: rgb(215, 17, 215);
+}
+
+p {
+  color: rgb(215, 17, 215);
+}
+
+main > div {
+  border: 2px dashed white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 400px;
+  position: relative;
+  margin: 50px 0;
+}
+
+.card:hover,
+.card:hover > h2 {
+  box-shadow: 0 0 15px 1px purple;
+}
+
+h2 {
+  border: 1px solid white;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  height: fit-content;
+  margin-top: -36px;
+  background-color: rgb(61, 61, 61);
+  font-size: 2em;
+  border-radius: 10px;
+  min-width: 300px;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+pre {
+  padding: 30px;
+  background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+  );
+}
+
+pre {
+  -webkit-user-selection: all;
+  -moz-user-select: all;
+  -ms-user-select: all;
+  user-select: all;
+}
+footer {
+  text-align: center;
+}
